@@ -42,7 +42,7 @@ import plotly.graph_objects as go
 import pandas as pd
 
 # Read data from a csv
-z_data = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/api_docs/mt_bruno_elevation.csv')
+z_data = pd.read_csv('https://drive.google.com/file/d/1IknqOtwJp600a2oQ7oqpr64BBS-56kIu/view?usp=drive_link')
 
 fig = go.Figure(data=[go.Surface(z=z_data.values)])
 
